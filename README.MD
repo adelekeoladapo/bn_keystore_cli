@@ -25,5 +25,5 @@ The CLI supports the following commands: <br>
 ### How to run
 - Clone or download the project
 - Navigate to the root directory on your terminal
-- Run `make docker-build` to build the docker image
-- Run `make docker-run` to run the generated image in a container.
+- Run `docker build -t bn_keystore_cli .` to build the docker image
+- Run `docker run -it bn_keystore_cli` to run the generated image in a container.
